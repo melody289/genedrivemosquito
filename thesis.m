@@ -237,7 +237,7 @@ for i = 1:2
 
  
 
- figure
+ hh = figure
 
 
 %subplot(1,2,1)  
@@ -265,10 +265,10 @@ ylabel( 'Proportion', 'Fontsize', 15)
 %set(gca, 'XTick',  [5:4:21], 'XTickLabel',  [  '10^{-5}','10^{-4}', '10^{-3}', '10^{-2}', '10^{-1}' ])
 %set(gca, 'XTick',  [1.5:4:21], 'XTickLabel',  [ .03:.02:.11])
 set(gca, 'FontSize', 15);
-close Figure 1
+close hh
 end
 
- figure
+hh= figure
 i =3;
 
 %subplot(1,2,1)  
@@ -284,7 +284,7 @@ h2.Normalization = 'probability';
 
 
 set(gca,'xscale','log') 
-figure
+ figure
 stairs(h1.Values, 'LineWidth', 2)
 hold on
 stairs(h2.Values, 'LineWidth', 2)
@@ -297,7 +297,7 @@ ylabel( 'Proportion', 'Fontsize', 15)
 
 
 set(gca, 'FontSize', 15);
-close Figure 1
+close hh
 
 for i = 4:7
 
@@ -305,7 +305,7 @@ for i = 4:7
 
  
 
- figure
+ hh = figure
 
 
 %subplot(1,2,1)  
@@ -333,7 +333,7 @@ ylabel( 'Proportion', 'Fontsize', 15)
 %set(gca, 'XTick',  [5:4:21], 'XTickLabel',  [  '10^{-5}','10^{-4}', '10^{-3}', '10^{-2}', '10^{-1}' ])
 %set(gca, 'XTick',  [1.5:4:21], 'XTickLabel',  [ .03:.02:.11])
 set(gca, 'FontSize', 15);
-close Figure 1
+close hh
 end
 
 
