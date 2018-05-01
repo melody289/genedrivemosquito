@@ -1,4 +1,4 @@
-function dy = gene_ode(t,y)
+function dy = gene_ode(t,y, val)
 % y = [ J_ww(1) , J_dw(2), J_dd(3), A_ww(4) , A_dw(5), A_dd(6)]
 beta = val(1);
 r = val(2);
