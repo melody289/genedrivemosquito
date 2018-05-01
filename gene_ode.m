@@ -1,6 +1,15 @@
 function dy = gene_ode(t,y)
 % y = [ J_ww(1) , J_dw(2), J_dd(3), A_ww(4) , A_dw(5), A_dd(6)]
-global beta r x f delta mu_0 mu_1 mu_2 alpha
+beta = val(1);
+r = val(2);
+mu_0 = val(3);
+mu_1 = val(4);
+mu_2 = val(5);
+alpha = val(6);
+delta = val(7);
+x = val(8);
+f =  val(9);
+fd = val(10);
 
 %initial matrix
 dy = zeros(6,1);
