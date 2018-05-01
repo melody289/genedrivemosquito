@@ -47,6 +47,12 @@ legend('Stable','Unstable', 'Bifurcation')
 samp = 225;
 % This is the latin hypercube command in matlab. When I run it in MatLab
 % R2016a, I use the default kernel when I first open matlab.
+
+% Here is the seed
+
+s = RandStream('mt19937ar','Seed',0, 'NormalTransform', 'Ziggurat');
+RandStream.setGlobalStream(s)
+
 Parm = lhsdesign(7,samp);
 
 
