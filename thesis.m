@@ -265,7 +265,7 @@ ylabel( 'Proportion', 'Fontsize', 15)
 %set(gca, 'XTick',  [5:4:21], 'XTickLabel',  [  '10^{-5}','10^{-4}', '10^{-3}', '10^{-2}', '10^{-1}' ])
 %set(gca, 'XTick',  [1.5:4:21], 'XTickLabel',  [ .03:.02:.11])
 set(gca, 'FontSize', 15);
-close hh
+close(hh)
 end
 
 hh= figure
@@ -297,7 +297,7 @@ ylabel( 'Proportion', 'Fontsize', 15)
 
 
 set(gca, 'FontSize', 15);
-close hh
+close(hh)
 
 for i = 4:7
 
@@ -333,7 +333,7 @@ ylabel( 'Proportion', 'Fontsize', 15)
 %set(gca, 'XTick',  [5:4:21], 'XTickLabel',  [  '10^{-5}','10^{-4}', '10^{-3}', '10^{-2}', '10^{-1}' ])
 %set(gca, 'XTick',  [1.5:4:21], 'XTickLabel',  [ .03:.02:.11])
 set(gca, 'FontSize', 15);
-close hh
+close(hh)
 end
 
 
