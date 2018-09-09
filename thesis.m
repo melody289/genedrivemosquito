@@ -741,7 +741,7 @@ options = [];%odeset('NonNegative',1:6); % use this for faster but less accurate
 [t,y] = ode45(@gene_ode,tspan, iV, options,parm);
 
 
-zziv(i,j) = sum(y(end,4:6));
+zziv(j,i) = sum(y(end,4:6));
 
 end
 
@@ -780,7 +780,7 @@ options = [];%odeset('NonNegative',1:6); % use this for faster but less accurate
 [t,y] = ode45(@gene_ode,tspan, iV, options,parm);
 
 
-zziv2(i,j) = sum(y(end,4:6));
+zziv2(j,i) = sum(y(end,4:6));
 
 end
 
