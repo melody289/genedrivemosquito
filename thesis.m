@@ -237,7 +237,7 @@ for i = 1:2
 
  
 
- hh = figure
+ hh = figure;
 
 
 %subplot(1,2,1)  
@@ -268,7 +268,7 @@ set(gca, 'FontSize', 15);
 close(hh)
 end
 
-hh= figure
+hh= figure;
 i =3;
 
 %subplot(1,2,1)  
@@ -305,7 +305,7 @@ for i = 4:7
 
  
 
- hh = figure
+ hh = figure;
 
 
 %subplot(1,2,1)  
@@ -546,6 +546,9 @@ ylabel('Gene Drive' ,'FontSize', 20, 'FontWeight', 'bold')
 %Intitializing
 zxf2 = zeros(11,11);
 zxfA2 = zeros(11,11);
+xg = 0:.05:0.5;
+f = 0:.1:1;
+
 tic
 for i = 1:11;
     
